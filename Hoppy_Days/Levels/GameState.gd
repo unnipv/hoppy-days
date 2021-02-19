@@ -15,9 +15,6 @@ func hurt():
 	if lives < 0:
 		end_game()
 
-func end_game():
-	get_tree().change_scene("res://Levels/GameOver.tscn")
-
 func update_GUI():
 	get_tree().call_group("GUI","update_GUI",lives,coins)
 	
@@ -31,3 +28,9 @@ func coin_up():
 func life_up():
 	lives += 1
 	update_GUI()
+
+func end_game():
+	get_tree().change_scene("res://Levels/GameOver.tscn")
+	
+func win_game():
+	get_tree().change_scene("res://Levels/Victory.tscn")
