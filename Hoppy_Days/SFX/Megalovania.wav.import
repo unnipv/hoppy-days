@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Megalovania.wav-5e1bd2a9fd5e297473364832f066a101.sample"
+
+[deps]
+
+source_file="res://SFX/Megalovania.wav"
+dest_files=[ "res://.import/Megalovania.wav-5e1bd2a9fd5e297473364832f066a101.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
