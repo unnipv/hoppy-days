@@ -30,6 +30,15 @@ tile_data = PoolIntArray( 262159, 4, 0, 393254, 4, 0, 393262, 0, 0, 458757, 0, 0
 [node name="SpikTop" parent="Hazards" instance=ExtResource( 3 )]
 position = Vector2( 702.172, 1134.74 )
 
+[node name="SpikTop2" parent="Hazards" instance=ExtResource( 3 )]
+position = Vector2( 1142.17, 1886.74 )
+
+[node name="SpikTop3" parent="Hazards" instance=ExtResource( 3 )]
+position = Vector2( 1702.17, 890.74 )
+
+[node name="SpikTop4" parent="Hazards" instance=ExtResource( 3 )]
+position = Vector2( 3214.17, 378.74 )
+
 [node name="Coin" parent="." instance=ExtResource( 9 )]
 position = Vector2( 198.452, 622.263 )
 
@@ -50,6 +59,12 @@ autoplay = true
 
 [node name="JumpPad" parent="JumpPads" instance=ExtResource( 5 )]
 position = Vector2( 882.941, 798.852 )
+
+[node name="JumpPad2" parent="JumpPads" instance=ExtResource( 5 )]
+position = Vector2( 2702.94, 1890.85 )
+
+[node name="JumpPad3" parent="JumpPads" instance=ExtResource( 5 )]
+position = Vector2( 3318.94, 1330.85 )
 
 [node name="GUI" parent="." instance=ExtResource( 7 )]
 script = ExtResource( 8 )
