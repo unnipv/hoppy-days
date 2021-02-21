@@ -14,7 +14,7 @@ func fire():
 		$Sprite/RayCast2D.add_child(load("res://NPCs/Lightning.tscn").instance())
 		$Sprite/Timer.start()
 		timeout = true
-
+#		$Sprite/AnimationPlayer.play("CloudCast")
 
 func _on_Timer_timeout():
 	timeout = false
